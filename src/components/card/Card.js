@@ -11,7 +11,7 @@ export default function (props) {
             <div className="card-image">
                 <img src={props.thumbnail} />
             </div>
-            <h3 className="card-heading">{props.projectName}</h3>
+            <h3 className="card-heading highlighted-text">{props.projectName}</h3>
             <p className="card-description">{props.description}</p>
             <Button action={handleClickOnProject} text="view project"></Button>
         </div>

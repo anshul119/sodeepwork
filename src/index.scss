@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;300;400;600&display=swap');
+
+html {
+    font-family: 'Archivo', sans-serif;
+}
+
+.highlighted-text {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+}
+
+.highlighted-italic-text {
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    font-style: italic;
+}

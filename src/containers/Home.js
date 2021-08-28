@@ -22,10 +22,10 @@ class Home extends React.Component {
                 <section className="hero">
                     <div className="wrapper">
                         <div className="container">
-                            <h1 className="hero-text">Hello World!</h1>
+                            <h1 className="hero-text highlighted-text">Hello World!</h1>
                             <h2 className="hero-subtext">
-                                My name is Sudeep Giri, a multidisciplinary designer and art director based in New
-                                Delhi.
+                                My name is <span className="highlighted-text">Sudeep Giri</span>, a multidisciplinary
+                                designer and art director based in New Delhi.
                             </h2>
                             <Button action={this.handleClickOnWork} text="See my work"></Button>
                         </div>
@@ -65,7 +65,7 @@ class Home extends React.Component {
                             />
                         </div>
                         <div className="projects-cta">
-                            <p>This is not the end of the road!</p>
+                            <p className="highlighted-italic-text">This is not the end of the road!</p>
                             <a href="#">View all work</a>
                         </div>
                     </div>
@@ -73,7 +73,7 @@ class Home extends React.Component {
                 <section className="about">
                     <div className="wrapper">
                         <div className="bio">
-                            <h2 className="heading">Aim for the wow!</h2>
+                            <h2 className="heading highlighted-text">Aim for the wow!</h2>
                             <div className="description">
                                 <p>
                                     6+ Years of experience has developed this simple lad into a Work Machine no less
@@ -87,8 +87,12 @@ class Home extends React.Component {
                         </div>
                         <div className="services">
                             <p className="services-heading">
-                                With speciality in UX & Identity Design I've helped brands build their presence in
-                                varied domains across mulitple platforms.
+                                With speciality in <span className="highlighted-text">UX & Identity Design</span>
+                                <br />
+                                I've helped brands <span className="highlighted-text">build their presence</span>
+                                <br />
+                                in varied domains across
+                                <span className="highlighted-text">mulitple platforms.</span>
                             </p>
                             <p className="services-subtext">I can help you with</p>
                             <div className="skills">
@@ -123,12 +127,12 @@ class Home extends React.Component {
                 <footer>
                     <div className="wrapper">
                         <div className="container">
-                            <h2 className="heading">Why don't you slide into my Email?</h2>
+                            <h2 className="heading highlighted-text">Why don't you slide into my Email?</h2>
                             <p className="subheading">so.deep.work@gmail.com</p>
                             <span className="connector"></span>
                             <Button action={this.handleClickOnWork} text="Say hello"></Button>
                             <div className="social">
-                                <p className="social-text">Follow me for amazing stuff</p>
+                                <p className="social-text highlighted-italic-text">Follow me for amazing stuff</p>
                                 <ol className="social-icons">
                                     <li className="social-icon">
                                         <img src={Instagram}></img>

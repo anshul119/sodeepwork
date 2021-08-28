@@ -8,6 +8,19 @@
 .hero {
     background-color: #faedcd;
 
+    &-text {
+        color: #eb5e55;
+        font-size: 98px;
+    }
+
+    &-subtext {
+        max-width: 840px;
+        color: #331832;
+        font-size: 32px;
+        text-align: center;
+        margin: 32px;
+    }
+
     .container {
         display: flex;
         flex-direction: column;
@@ -17,26 +30,15 @@
     }
 }
 
-.hero-text {
-    color: #eb5e55;
-    font-size: 98px;
-}
-
-.hero-subtext {
-    max-width: 840px;
-    color: #331832;
-    font-size: 32px;
-    text-align: center;
-    margin: 32px;
-}
-
 // Project section
 
 .projects {
     padding: 100px 0;
+    color: #331832;
 
     &-heading {
         font-size: 32px;
+        font-weight: 600;
         text-align: center;
     }
 
@@ -51,6 +53,8 @@
 
         a {
             text-decoration: none;
+            font-weight: 600;
+            color: #331832;
         }
     }
 }
@@ -67,6 +71,7 @@
     background-color: #faedcd;
     margin: 0 auto;
     padding: 100px 0;
+    color: #331832;
 }
 
 .bio {
@@ -79,12 +84,13 @@
     .heading {
         font-size: 98px;
         color: #eb5e55;
-        max-width: 400px;
+        max-width: 468px;
     }
 
     .description {
         max-width: 562px;
         font-size: 24px;
+        font-weight: 300;
 
         p {
             margin: 20px 0;
@@ -94,7 +100,6 @@
 
 .services {
     max-width: 1018px;
-    color: #331832;
 
     &-heading {
         margin: 76px 0;
@@ -103,6 +108,7 @@
 
     &-subtext {
         font-size: 24px;
+        font-weight: 300;
     }
 }
 
@@ -116,6 +122,9 @@
 .skill {
     display: flex;
     align-items: center;
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    font-style: italic;
 
     &-icon {
         height: 64px;
@@ -140,6 +149,7 @@
 
 footer {
     background-color: #331832;
+
     .container {
         display: flex;
         flex-direction: column;
@@ -154,6 +164,7 @@ footer {
 
     .subheading {
         font-size: 16px;
+        font-weight: 100;
         margin-top: 10px;
     }
 
@@ -188,4 +199,9 @@ footer {
         width: 24px;
         padding: 20px;
     }
+}
+
+.copyright {
+    font-weight: 100;
+    text-transform: uppercase;
 }
