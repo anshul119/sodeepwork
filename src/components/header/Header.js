@@ -8,12 +8,10 @@ class Header extends React.Component {
     render() {
         return (
             <header className="header">
-                <div className="wrapper">
-                    <div className="header-container">
-                        <img className="logo" src={logo}></img>
-                        <div className="menu-icon">
-                            <Icon name={hamburger}></Icon>
-                        </div>
+                <div className="header-container">
+                    <img className="logo" src={logo}></img>
+                    <div className="menu-icon">
+                        <Icon name={hamburger}></Icon>
                     </div>
                 </div>
             </header>

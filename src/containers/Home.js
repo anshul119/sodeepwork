@@ -9,6 +9,7 @@ import Branding from '../assets/icons/Branding.svg';
 import Direction from '../assets/icons/Direction.svg';
 import UI from '../assets/icons/UI.svg';
 import UX from '../assets/icons/UX.svg';
+import spiral from '../assets/images/spiral.svg';
 
 import './home.scss';
 
@@ -19,7 +20,7 @@ class Home extends React.Component {
     render() {
         return (
             <div className="home">
-                <section className="hero">
+                <section className="hero" style={{ backgroundImage: `url(${spiral})` }}>
                     <div className="wrapper">
                         <div className="container">
                             <h1 className="hero-text highlighted-text">Hello World!</h1>

@@ -1,12 +1,20 @@
 // Hero
 
 .wrapper {
-    width: 1156px;
+    max-width: 1156px;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .hero {
     background-color: #faedcd;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1500px;
+
+    &-background {
+        position: absolute;
+    }
 
     &-text {
         color: #eb5e55;
@@ -115,6 +123,7 @@
 .skills {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin-top: 50px;
     font-size: 24px;
 }
