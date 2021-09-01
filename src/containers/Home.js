@@ -10,6 +10,9 @@ import Direction from '../assets/icons/Direction.svg';
 import UI from '../assets/icons/UI.svg';
 import UX from '../assets/icons/UX.svg';
 import spiral from '../assets/images/spiral.svg';
+import gridDots from '../assets/images/grid-dot.svg';
+import gridCircles from '../assets/images/grid-circle.svg';
+import asterisk from '../assets/images/asterisk.svg';
 
 import './home.scss';
 
@@ -22,6 +25,18 @@ class Home extends React.Component {
             <div className="home">
                 <section className="hero" style={{ backgroundImage: `url(${spiral})` }}>
                     <div className="wrapper">
+                        <div className="elements">
+                            <div className="eye">
+                                <div className="sclera" />
+                                <div className="iris" />
+                                <div className="pupil" />
+                            </div>
+                            <img className="grid-dots" src={gridDots} />
+                            <img className="asterisk" src={asterisk} />
+                            <img className="grid-circles" src={gridCircles} />
+                            <div className="polygon-orange" />
+                            <div className="polygon-brown" />
+                        </div>
                         <div className="container">
                             <h1 className="hero-text highlighted-text">Hello World!</h1>
                             <h2 className="hero-subtext">
