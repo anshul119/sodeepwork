@@ -1,0 +1,55 @@
+.menu {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background: #331832;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 100;
+}
+
+.icon-close {
+    position: absolute;
+    height: 48px;
+    width:48px;
+    right: 0;
+    top: 48px;
+    cursor: pointer;
+}
+
+.open {
+    display: block;
+}
+
+ .close {
+     display: none;
+ }
+
+ .nav {
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+    height: 100%;
+
+    &-item {
+        display: flex;
+        align-items: center;
+        height: 400px;
+        min-width: 256px;
+        margin-right: 36px;
+        background: #EB5E55;
+        cursor: pointer;
+    }
+
+    .name {
+        width: 224px;
+        color: #fff;
+        border-top: 1px solid #fff;
+        margin: 0 auto;
+        text-align: center;
+        padding: 24px 0;
+    }
+ }

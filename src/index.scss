@@ -1,8 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;300;400;600&display=swap');
-
 html {
     font-family: 'Archivo', sans-serif;
+}
+
+body.menu-open {
+    overflow: hidden;
+}
+
+.wrapper {
+    max-width: 1156px;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
 }
 
 .highlighted-text {
